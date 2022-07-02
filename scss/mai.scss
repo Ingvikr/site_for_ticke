@@ -1,0 +1,1565 @@
+.mai {
+    .mai_ro {
+        display: flex;
+        flex-direction: column;
+        border: 7px solid darkgreen;
+        .mai_ro_blo1 {
+            border: 7px solid darkgreen;
+            .mai_ro_blo1_ro {
+                display: flex;
+                flex-direction: row;
+                border: 7px solid darkgreen;
+
+                @include doug_scree_2 {
+                    display: flex;
+                    flex-direction: row;
+                    border: 7px solid darkgreen;
+                }
+
+                @include doug_scree_3 {
+                    display: flex;
+                    flex-direction: column;
+                    border: 7px solid darkgreen;
+                }
+
+                @include doug_scree_4 {
+                    display: flex;
+                    flex-direction: column;
+                    border: 7px solid darkgreen;
+                }
+                .mai_ro_blo1_ro_desc1 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo1_ro_desc1_ro {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 11px;
+                        flex-wrap: wrap;
+                        border: 7px solid darkgreen;
+                        .mai_ro_blo1_ro_desc1_ro_tx1 {
+                            align-self: flex-start;
+                            font-style: normal;
+                            color: black;
+                            font-size: 17px;
+                            font-family: "IBM Plex Serif", sans-serif;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                align-self: flex-start;
+                                font-style: normal;
+                                color: black;
+                                font-size: 17px;
+                                font-family: "IBM Plex Serif", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                align-self: center;
+                                font-style: normal;
+                                color: black;
+                                font-size: 17px;
+                                font-family: "IBM Plex Serif", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                align-self: flex-start;
+                                font-style: normal;
+                                color: black;
+                                font-size: 17px;
+                                font-family: "IBM Plex Serif", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+
+                        .mai_ro_blo1_ro_desc1_ro_tx2 {
+                            align-self: flex-start;
+                            font-style: normal;
+                            color: #454545;
+                            font-size: 15px;
+                            font-family: "IBM Plex Sans", sans-serif;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                align-self: flex-start;
+                                font-style: normal;
+                                color: #454545;
+                                font-size: 15px;
+                                font-family: "IBM Plex Sans", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                align-self: center;
+                                font-style: normal;
+                                color: #454545;
+                                font-size: 15px;
+                                font-family: "IBM Plex Sans", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                align-self: flex-start;
+                                font-style: normal;
+                                color: #454545;
+                                font-size: 15px;
+                                font-family: "IBM Plex Sans", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+
+                        .mai_ro_blo1_ro_desc1_ro_but1 {
+                            align-self: flex-end;
+                            width: 93px;
+                            height: 27px;
+                            border: 1px solid #B563E1;
+                            background-color: transparent;
+                            font-style: normal;
+                            cursor: pointer;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Serif 4", sans-serif;
+                            transition: 0.5s;
+                            &:hover {
+                                width: 93px;
+                                height: 27px;
+                                cursor: pointer;
+                                border: 1px solid #B563E1;
+                                background-color: #B563E1;
+                                font-style: normal;
+                                font-size: 17px;
+                                color: white;
+                                font-family: "Source Serif 4", sans-serif;
+                            }
+
+                            @include doug_scree_2 {
+                                align-self: flex-end;
+                                width: 93px;
+                                height: 27px;
+                                border: 1px solid #B563E1;
+                                background-color: transparent;
+                                font-style: normal;
+                                cursor: pointer;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif 4", sans-serif;
+                                transition: 0.5s;
+                                &:hover {
+                                    width: 93px;
+                                    height: 27px;
+                                    cursor: pointer;
+                                    border: 1px solid #B563E1;
+                                    background-color: #B563E1;
+                                    font-style: normal;
+                                    font-size: 17px;
+                                    color: white;
+                                    font-family: "Source Serif 4", sans-serif;
+                                }
+                            }
+
+                            @include doug_scree_3 {
+                                align-self: center;
+                                width: 93px;
+                                height: 27px;
+                                border: 1px solid #B563E1;
+                                background-color: transparent;
+                                font-style: normal;
+                                cursor: pointer;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif 4", sans-serif;
+                                transition: 0.5s;
+                                &:hover {
+                                    width: 93px;
+                                    height: 27px;
+                                    cursor: pointer;
+                                    border: 1px solid #B563E1;
+                                    background-color: #B563E1;
+                                    font-style: normal;
+                                    font-size: 17px;
+                                    color: white;
+                                    font-family: "Source Serif 4", sans-serif;
+                                }
+                            }
+
+                            @include doug_scree_4 {
+                                align-self: flex-start;
+                                width: 93px;
+                                height: 27px;
+                                border: 1px solid #B563E1;
+                                background-color: transparent;
+                                font-style: normal;
+                                cursor: pointer;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif 4", sans-serif;
+                                transition: 0.5s;
+                                &:hover {
+                                    width: 93px;
+                                    height: 27px;
+                                    cursor: pointer;
+                                    border: 1px solid #B563E1;
+                                    background-color: #B563E1;
+                                    font-style: normal;
+                                    font-size: 17px;
+                                    color: white;
+                                    font-family: "Source Serif 4", sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .mai_ro_blo1_ro_desc2 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo1_ro_desc2_ro {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-end;
+                        align-self: flex-end;
+                        border: 7px solid darkgreen;
+
+                        @include doug_scree_2 {
+                            display: flex;
+                            justify-content: flex-end;
+                            flex-direction: row;
+                            align-self: flex-end;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_3 {
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: row;
+                            align-self: center;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_4 {
+                            display: flex;
+                            justify-content: flex-start;
+                            flex-direction: row;
+                            align-self: flex-start;
+                            border: 7px solid darkgreen;
+                        }
+                        .mai_ro_blo1_ro_desc2_ro_im1 {
+                            width: 239px;
+                            height: 167px;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                width: 239px;
+                                height: 167px;
+                                border: 7px solid darkgreen;
+                            }
+    
+                            @include doug_scree_3 {
+                                width: 203px;
+                                height: 151px;
+                                border: 7px solid darkgreen;
+                            }
+    
+                            @include doug_scree_4 {
+                                width: 161px;
+                                height: 125px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_5 {
+                                width: 116px;
+                                height: 104px;
+                                border: 7px solid darkgreen;
+                            }
+                        }                    
+                    }
+                }
+            }
+        }
+
+        .mai_ro_blo2 {
+            border: 7px solid darkgreen;
+            .mai_ro_blo2_ro {
+                display: flex;
+                flex-direction: column;
+                border: 7px solid darkgreen;
+                .mai_ro_blo2_ro_desc1 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo2_ro_desc1_ro {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: row;
+                        border: 7px solid darkgreen;
+                        
+                        @include doug_scree_2 {
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: row;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_3 {
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: row;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_4 {
+                            display: flex;
+                            justify-content: flex-start;
+                            flex-direction: row;
+                            border: 7px solid darkgreen;
+                        }
+                        .mai_ro_blo2_ro_desc1_ro_tx1 {
+                            font-style: normal;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            font-size: 17px;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                font-style: normal;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                font-size: 17px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                font-style: normal;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                font-size: 17px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                font-style: normal;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                font-size: 17px;
+                                border: 7px solid darkgreen; 
+                            }
+                        }
+                    }
+                }
+
+                .mai_ro_blo2_ro_desc2 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo2_ro_desc2_ro {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 35px;
+                        border: 7px solid darkgreen;
+
+                        @include doug_scree_2 {
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 35px;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_3 {
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 53px;
+                            border: 7px solid darkgreen; 
+                        }
+
+                        @include doug_scree_4 {
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 71px;
+                            border: 7px solid darkgreen; 
+                        }
+                        .mai_ro_blo2_ro_desc2_ro_blo1 {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            row-gap: 39px;
+                            justify-content: space-between;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                display: flex;
+                                flex-wrap: wrap;
+                                row-gap: 39px;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                display: flex;
+                                row-gap: 53px;
+                                align-items: center;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                flex-wrap: wrap;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                display: flex;
+                                align-items: flex-start;
+                                row-gap: 71px;
+                                flex-direction: column;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                border: 7px solid darkgreen;
+                            }
+                            .mai_ro_blo2_ro_desc2_ro_blo1_ro {
+                                display: flex;
+                                width: 291px;
+                                flex-direction: column;
+                                cursor: pointer;
+                                overflow: hidden;
+                                height: 292px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &:hover {
+                                    display: flex;
+                                    cursor: pointer;
+                                    width: 291px;
+                                    row-gap: 5px;
+                                    flex-direction: column;
+                                    overflow: hidden;
+                                    box-shadow: 0px 1px 4px 8px black;
+                                    height: 397px;
+                                    border: 7px solid darkgreen;
+                                }
+
+                                &:hover .mai_ro_blo2_ro_desc2_ro_blo1_ro_im1 {
+                                    align-self: center;
+                                    width: 7px;
+                                    height: 7px;
+                                    opacity: 0%;
+                                    border: 7px solid darkgreen;
+                                }
+
+                                &:hover .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx1 {
+                                    align-self: center;
+                                    font-style: normal;
+                                    color: black;
+                                    font-size: 17px;
+                                    font-family: "Source Serif Pro", sans-serif;
+                                    border: 7px solid darkgreen;
+                                }
+
+                                @include doug_scree_2 {
+                                    display: flex;
+                                    width: 291px;
+                                    flex-direction: column;
+                                    cursor: pointer;
+                                    overflow: hidden;
+                                    height: 292px;
+                                    border: 7px solid darkgreen;
+                                    transition: 0.5s;
+                                    &:hover {
+                                        display: flex;
+                                        cursor: pointer;
+                                        width: 291px;
+                                        row-gap: 5px;
+                                        flex-direction: column;
+                                        overflow: hidden;
+                                        box-shadow: 0px 1px 4px 8px black;
+                                        height: 397px;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    &:hover .mai_ro_blo2_ro_desc2_ro_blo1_ro_im1 {
+                                        align-self: center;
+                                        width: 7px;
+                                        height: 7px;
+                                        opacity: 0%;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    &:hover .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx1 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                @include doug_scree_3 {
+                                    display: flex;
+                                    width: 291px;
+                                    flex-direction: column;
+                                    cursor: pointer;
+                                    overflow: hidden;
+                                    height: 276px;
+                                    border: 7px solid darkgreen;
+                                    transition: 0.5s;
+                                    &:hover {
+                                        display: flex;
+                                        cursor: pointer;
+                                        width: 291px;
+                                        row-gap: 5px;
+                                        flex-direction: column;
+                                        overflow: hidden;
+                                        box-shadow: 0px 1px 4px 8px black;
+                                        height: 428px;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    &:hover .mai_ro_blo2_ro_desc2_ro_blo1_ro_im1 {
+                                        align-self: center;
+                                        width: 7px;
+                                        height: 7px;
+                                        opacity: 0%;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    &:hover .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx1 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                @include doug_scree_4 {
+                                    display: flex;
+                                    width: 236px;
+                                    flex-direction: column;
+                                    cursor: pointer;
+                                    overflow: hidden;
+                                    height: 292px;
+                                    border: 7px solid darkgreen;
+                                    transition: 0.5s;
+                                    &:hover {
+                                        display: flex;
+                                        cursor: pointer;
+                                        width: 236px;
+                                        row-gap: 5px;
+                                        flex-direction: column;
+                                        overflow: hidden;
+                                        box-shadow: 0px 1px 4px 8px black;
+                                        height: 449px;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    &:hover .mai_ro_blo2_ro_desc2_ro_blo1_ro_im1 {
+                                        align-self: flex-start;
+                                        width: 7px;
+                                        height: 7px;
+                                        opacity: 0%;
+                                        border: 7px solid darkgreen;
+                                    }
+    
+                                    &:hover .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx1 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro_im1 {
+                                    align-self: center;
+                                    width: 216px;
+                                    height: 116px;
+                                    border: 7px solid darkgreen;
+                                    transition: 0.5s;
+
+                                    @include doug_scree_2 {
+                                        align-self: center;
+                                        width: 216px;
+                                        height: 116px;
+                                        border: 7px solid darkgreen;
+                                        transition: 0.5s; 
+                                    }
+
+                                    @include doug_scree_3 {
+                                        align-self: center;
+                                        width: 181px;
+                                        height: 127px;
+                                        border: 7px solid darkgreen;
+                                        transition: 0.5s; 
+                                    }
+
+                                    @include doug_scree_4 {
+                                        align-self: flex-start;
+                                        width: 148px;
+                                        height: 106px;
+                                        border: 7px solid darkgreen;
+                                        transition: 0.5s; 
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx1 {
+                                    align-self: flex-start;
+                                    font-style: normal;
+                                    color: black;
+                                    font-size: 17px;
+                                    font-family: "Source Serif Pro", sans-serif;
+                                    border: 7px solid darkgreen;
+                                    transition: 0.5s;
+
+                                    @include doug_scree_2 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                        transition: 0.5s;
+                                    }
+
+                                    @include doug_scree_3 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                        transition: 0.5s;
+                                    }
+
+                                    @include doug_scree_4 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        color: black;
+                                        font-size: 17px;
+                                        font-family: "Source Serif Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                        transition: 0.5s;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx2 {
+                                    align-self: flex-start;
+                                    font-style: normal;
+                                    font-size: 15px;
+                                    color: black;
+                                    font-family: "Source Sans Pro", sans-serif;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scree_2 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_3 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_4 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx3 {
+                                    align-self: flex-start;
+                                    font-style: normal;
+                                    font-family: "IBM Plex Serif", sans-serif;
+                                    color: #393939;
+                                    font-size: 15px;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scree_2 { 
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        color: #393939;
+                                        font-size: 15px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_3 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        color: #393939;
+                                        font-size: 15px;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_4 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        color: #393939;
+                                        font-size: 15px;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx4 {
+                                    align-self: flex-start;
+                                    font-style: normal;
+                                    font-size: 15px;
+                                    color: black;
+                                    font-family: "Source Sans Pro", sans-serif;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scree_2 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_3 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_4 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx5 {
+                                    align-self: flex-start;
+                                    font-style: normal;
+                                    font-size: 15px;
+                                    font-family: "IBM Plex Serif", sans-serif;
+                                    color: #393939;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scree_2 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        color: #393939;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_3 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        color: #393939;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_4 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        font-family: "IBM Plex Serif", sans-serif;
+                                        color: #393939;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx6 {
+                                    align-self: flex-start;
+                                    font-style: normal;
+                                    font-size: 15px;
+                                    color: black;
+                                    font-family: "Source Sans Pro", sans-serif;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scree_2 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_3 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_4 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: black;
+                                        font-family: "Source Sans Pro", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro_tx7 {
+                                    align-self: flex-start;
+                                    font-style: normal;
+                                    font-size: 15px;
+                                    color: #2E2E2E;
+                                    font-family: "Source Sans 3", sans-serif;
+                                    border: 7px solid darkgreen;
+
+                                    @include doug_scree_2 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: #2E2E2E;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_3 {
+                                        align-self: center;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: #2E2E2E;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+
+                                    @include doug_scree_4 {
+                                        align-self: flex-start;
+                                        font-style: normal;
+                                        font-size: 15px;
+                                        color: #2E2E2E;
+                                        font-family: "Source Sans 3", sans-serif;
+                                        border: 7px solid darkgreen;
+                                    }
+                                }
+
+                                .mai_ro_blo2_ro_desc2_ro_blo1_ro_desc1 {
+                                    border: 7px solid darkgreen;
+                                    .mai_ro_blo2_ro_desc2_ro_blo1_ro_desc1_ro {
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: flex-end;
+                                        border: 7px solid darkgreen;
+
+                                        @include doug_scree_2 {
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: flex-end;
+                                            border: 7px solid darkgreen;
+                                        }
+
+                                        @include doug_scree_3 {
+                                            display: flex;
+                                            align-self: center;
+                                            flex-direction: column;
+                                            justify-content: flex-end;
+                                            border: 7px solid darkgreen;
+                                        }
+
+                                        @include doug_scree_4 {
+                                            display: flex;
+                                            align-self: flex-start;
+                                            flex-direction: column;
+                                            justify-content: flex-end;
+                                            border: 7px solid darkgreen;
+                                        }
+                                        .mai_ro_blo2_ro_desc2_ro_blo1_ro_desc1_ro_tx1 {
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            margin-right: auto;
+                                            font-family: "Source Serif Pro", sans-serif;
+                                            color: black;
+                                            border: 7px solid darkgreen;
+
+                                            @include doug_scree_2 {
+                                                font-style: normal;
+                                                font-size: 17px;
+                                                margin-right: auto;
+                                                font-family: "Source Serif Pro", sans-serif;
+                                                color: black;
+                                                border: 7px solid darkgreen;
+                                            }
+
+                                            @include doug_scree_3 {
+                                                font-style: normal;
+                                                font-size: 17px;
+                                                margin-right: auto;
+                                                font-family: "Source Serif Pro", sans-serif;
+                                                color: black;
+                                                border: 7px solid darkgreen;
+                                            }
+                                            
+                                            @include doug_scree_4 {
+                                                font-style: normal;
+                                                font-size: 17px;
+                                                margin-right: auto;
+                                                font-family: "Source Serif Pro", sans-serif;
+                                                color: black;
+                                                border: 7px solid darkgreen;
+                                            }
+                                        }
+
+                                        .mai_ro_blo2_ro_desc2_ro_blo1_ro_desc1_ro_but1 {
+                                            align-self: center;
+                                            width: 84px;
+                                            height: 28px;
+                                            border: 1px solid #33A57C;
+                                            background-color: transparent;
+                                            font-style: normal;
+                                            font-size: 17px;
+                                            cursor: pointer;
+                                            color: black;
+                                            font-family: "Source Sans Pro", sans-serif;
+                                            transition: 0.5s;
+                                            &:hover {
+                                                width: 84px;
+                                                height: 28px;
+                                                border: 1px solid #33A57C;
+                                                cursor: pointer;
+                                                background-color: #33A57C;
+                                                font-style: normal;
+                                                font-size: 17px;
+                                                color: white;
+                                                font-family: "Source Sans Pro", sans-serif;
+                                            }
+
+                                            @include doug_scree_2 {
+                                                align-self: center;
+                                                width: 84px;
+                                                height: 28px;
+                                                border: 1px solid #33A57C;
+                                                background-color: transparent;
+                                                font-style: normal;
+                                                font-size: 17px;
+                                                cursor: pointer;
+                                                color: black;
+                                                font-family: "Source Sans Pro", sans-serif;
+                                                transition: 0.5s;
+                                                &:hover {
+                                                    width: 84px;
+                                                    height: 28px;
+                                                    border: 1px solid #33A57C;
+                                                    cursor: pointer;
+                                                    background-color: #33A57C;
+                                                    font-style: normal;
+                                                    font-size: 17px;
+                                                    color: white;
+                                                    font-family: "Source Sans Pro", sans-serif;
+                                                }
+                                            }
+
+                                            @include doug_scree_3 {
+                                                align-self: center;
+                                                width: 84px;
+                                                height: 28px;
+                                                border: 1px solid #33A57C;
+                                                background-color: transparent;
+                                                font-style: normal;
+                                                font-size: 17px;
+                                                cursor: pointer;
+                                                color: black;
+                                                font-family: "Source Sans Pro", sans-serif;
+                                                transition: 0.5s;
+                                                &:hover {
+                                                    width: 84px;
+                                                    height: 28px;
+                                                    border: 1px solid #33A57C;
+                                                    cursor: pointer;
+                                                    background-color: #33A57C;
+                                                    font-style: normal;
+                                                    font-size: 17px;
+                                                    color: white;
+                                                    font-family: "Source Sans Pro", sans-serif;
+                                                }
+                                            }
+
+                                            @include doug_scree_4 {
+                                                align-self: flex-start;
+                                                width: 84px;
+                                                height: 28px;
+                                                border: 1px solid #33A57C;
+                                                background-color: transparent;
+                                                font-style: normal;
+                                                font-size: 17px;
+                                                cursor: pointer;
+                                                color: black;
+                                                font-family: "Source Sans Pro", sans-serif;
+                                                transition: 0.5s;
+                                                &:hover {
+                                                    width: 84px;
+                                                    height: 28px;
+                                                    border: 1px solid #33A57C;
+                                                    cursor: pointer;
+                                                    background-color: #33A57C;
+                                                    font-style: normal;
+                                                    font-size: 17px;
+                                                    color: white;
+                                                    font-family: "Source Sans Pro", sans-serif;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .mai_ro_blo3 {
+            border: 7px solid darkgreen;
+            .mai_ro_blo3_ro {
+                display: flex;
+                flex-direction: row;
+                margin-top: 53px;
+                border: 7px solid darkgreen;
+
+                @include doug_scree_2 {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 53px;
+                    border: 7px solid darkgreen;
+                }
+
+                @include doug_scree_3 {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 79px;
+                    border: 7px solid darkgreen;
+                }
+
+                @include doug_scree_4 {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 93px;
+                    border: 7px solid darkgreen;
+                }
+                .mai_ro_blo3_ro_desc1 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo3_ro_desc1_ro {
+                        display: flex;
+                        flex-direction: column;
+                        border: 7px solid darkgreen;
+
+                        @include doug_scree_2 {
+                            display: flex;
+                            flex-direction: column;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_3 {
+                            display: flex;
+                            flex-direction: column;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_4 {
+                            display: flex;
+                            flex-direction: column;
+                            border: 7px solid darkgreen;
+                        }
+
+                        .mai_ro_blo3_ro_desc1_ro_tx1 {
+                            align-self: flex-start;
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                align-self: flex-start;
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                align-self: center;
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                align-self: flex-start;
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+
+                        .mai_ro_blo3_ro_desc1_ro_tx2 {
+                            align-self: flex-start;
+                            font-style: normal;
+                            font-size: 15px;
+                            color: #3F3F3F;
+                            font-family: "Source Sans 3", sans-serif;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                align-self: flex-start;
+                                font-style: normal;
+                                font-size: 15px;
+                                color: #3F3F3F;
+                                font-family: "Source Sans 3", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                align-self: center;
+                                font-style: normal;
+                                font-size: 15px;
+                                color: #3F3F3F;
+                                font-family: "Source Sans 3", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                align-self: flex-start;
+                                font-style: normal;
+                                font-size: 15px;
+                                color: #3F3F3F;
+                                font-family: "Source Sans 3", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+
+                        .mai_ro_blo3_ro_desc1_ro_but1 {
+                            align-self: flex-end;
+                            width: 87px;
+                            height: 29px;
+                            border: 1px solid #B42E5D;
+                            background-color: transparent;
+                            font-style: normal;
+                            font-size: 15px;
+                            cursor: pointer;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            transition: 0.5s;
+                            &:hover {
+                                width: 87px;
+                                height: 29px;
+                                cursor: pointer;
+                                border: 1px solid #B42E5D;
+                                background-color: #B42E5D;
+                                font-style: normal;
+                                font-size: 15px;
+                                color: white;
+                                font-family: "Source Serif Pro", sans-serif;
+                            }
+
+                            @include doug_scree_2 {
+                                align-self: flex-end;
+                                width: 87px;
+                                height: 29px;
+                                border: 1px solid #B42E5D;
+                                background-color: transparent;
+                                font-style: normal;
+                                font-size: 15px;
+                                cursor: pointer;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                transition: 0.5s;
+                                &:hover {
+                                    width: 87px;
+                                    height: 29px;
+                                    cursor: pointer;
+                                    border: 1px solid #B42E5D;
+                                    background-color: #B42E5D;
+                                    font-style: normal;
+                                    font-size: 15px;
+                                    color: white;
+                                    font-family: "Source Serif Pro", sans-serif;
+                                }
+                            }
+
+                            @include doug_scree_3 {
+                                align-self: center;
+                                width: 87px;
+                                height: 29px;
+                                border: 1px solid #B42E5D;
+                                background-color: transparent;
+                                font-style: normal;
+                                font-size: 15px;
+                                cursor: pointer;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                transition: 0.5s;
+                                &:hover {
+                                    width: 87px;
+                                    height: 29px;
+                                    cursor: pointer;
+                                    border: 1px solid #B42E5D;
+                                    background-color: #B42E5D;
+                                    font-style: normal;
+                                    font-size: 15px;
+                                    color: white;
+                                    font-family: "Source Serif Pro", sans-serif;
+                                }
+                            }
+
+                            @include doug_scree_4 {
+                                align-self: flex-start;
+                                width: 87px;
+                                height: 29px;
+                                border: 1px solid #B42E5D;
+                                background-color: transparent;
+                                font-style: normal;
+                                font-size: 15px;
+                                cursor: pointer;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                transition: 0.5s;
+                                &:hover {
+                                    width: 87px;
+                                    height: 29px;
+                                    cursor: pointer;
+                                    border: 1px solid #B42E5D;
+                                    background-color: #B42E5D;
+                                    font-style: normal;
+                                    font-size: 15px;
+                                    color: white;
+                                    font-family: "Source Serif Pro", sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .mai_ro_blo3_ro_desc2 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo3_ro_desc2_ro {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-end;
+                        border: 7px solid darkgreen;
+
+                        @include doug_scree_2 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_3 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_4 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            border: 7px solid darkgreen;
+                        }
+                        .mai_ro_blo3_ro_desc2_ro_im1 {
+                            justify-self: flex-end;
+                            width: 273px;
+                            height: 159px;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                justify-self: flex-end;
+                                width: 273px;
+                                height: 159px;
+                                border: 7px solid darkgreen;
+                            }
+                            
+                            @include doug_scree_3 {
+                                justify-self: center;
+                                width: 227px;
+                                height: 137px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                justify-self: flex-start;
+                                width: 167px;
+                                height: 125px;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .mai_ro_blo4 {
+            border: 7px solid darkgreen;
+            .mai_ro_blo4_ro {
+                display: flex;
+                margin-top: 53px;
+                flex-direction: column;                
+                border: 7px solid darkgreen;
+
+                @include doug_scree_2 {
+                    display: flex;
+                    flex-direction: column;                
+                    border: 7px solid darkgreen;
+                }
+
+                @include doug_scree_3 {
+                    display: flex;
+                    flex-direction: column;                
+                    border: 7px solid darkgreen;
+                }
+
+                @include doug_scree_4 {
+                    display: flex;
+                    flex-direction: column;                
+                    border: 7px solid darkgreen;
+                }
+                .mai_ro_blo4_ro_desc1 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo4_ro_desc1_ro {
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: center;
+                        border: 7px solid darkgreen;
+
+                        @include doug_scree_2 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            border: 7px solid darkgreen; 
+                        }
+
+                        @include doug_scree_3 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            border: 7px solid darkgreen; 
+                        }
+
+                        @include doug_scree_4 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            border: 7px solid darkgreen; 
+                        }
+                        .mai_ro_blo4_ro_desc1_ro_tx1 {
+                            align-self: center;
+                            font-style: normal;
+                            color: black;
+                            font-size: 17px;
+                            font-family: "Source Serif Pro", sans-serif;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                align-self: center;
+                                font-style: normal;
+                                color: black;
+                                font-size: 17px;
+                                font-family: "Source Serif Pro", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                align-self: center;
+                                font-style: normal;
+                                color: black;
+                                font-size: 17px;
+                                font-family: "Source Serif Pro", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                align-self: flex-start;
+                                font-style: normal;
+                                color: black;
+                                font-size: 17px;
+                                font-family: "Source Serif Pro", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+                    }
+                }
+
+                .mai_ro_blo4_ro_desc2 {
+                    border: 7px solid darkgreen;
+                    .mai_ro_blo4_ro_desc2_ro {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: flex-start;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        border: 7px solid darkgreen;
+
+                        @include doug_scree_2 {
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: flex-start;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_3 {
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: center;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include doug_scree_4 {
+                            display: flex;
+                            align-items: flex-start;
+                            flex-wrap: wrap;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            border: 7px solid darkgreen;
+                        }
+                        .mai_ro_blo4_ro_desc2_ro_im1 {
+                            width: 235px;
+                            height: 119px;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                width: 235px;
+                                height: 119px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                width: 200px;
+                                height: 106px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                width: 204px;
+                                height: 103px;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+
+                        .mai_ro_blo4_ro_desc2_ro_im2 {
+                            width: 219px;
+                            height: 119px;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                width: 219px;
+                                height: 119px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                width: 200px;
+                                height: 103px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                width: 204px;
+                                height: 102px;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+
+                        .mai_ro_blo4_ro_desc2_ro_im3 {
+                            width: 253px;
+                            height: 119px;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                width: 253px;
+                                height: 119px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                width: 201px;
+                                height: 96px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                width: 204px;
+                                height: 96px;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+
+                        .mai_ro_blo4_ro_desc2_ro_im4 {
+                            width: 279px;
+                            height: 119px;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                width: 279px;
+                                height: 119px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                width: 201px;
+                                height: 83px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_4 {
+                                width: 204px;
+                                height: 90px;
+                                border: 7px solid darkgreen;
+                            }
+                        }
+
+                        .mai_ro_blo4_ro_desc2_ro_im5 {
+                            width: 259px;
+                            height: 119px;
+                            border: 7px solid darkgreen;
+
+                            @include doug_scree_2 {
+                                width: 259px;
+                                height: 119px;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include doug_scree_3 {
+                                width: 201px;
+                                height: 81px;
+                                border: 7px solid darkgreen; 
+                            }
+
+                            @include doug_scree_4 {
+                                width: 204px;
+                                height: 78px;
+                                border: 7px solid darkgreen; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

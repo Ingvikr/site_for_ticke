@@ -7,28 +7,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import "medi_scss/medi.scss";
 @import "heade.scss";
+@import "mai.scss";
+@import "foote.scss";
 
 .wrappe {
-    border: 7px solid darkblue;
     .blo {
-        border: 7px solid darkgreen;
         .blo_ro {
             display: flex;
             flex-direction: column;
-            border: 7px solid darkgreen;
             .header {
-                border: 7px solid darkgreen;
             }
 
             .mai {
                 flex-shrink: 1;
                 flex-grow: 1;
                 flex-basis: 2931px;
-                border: 7px solid darkgreen;
             }
 
             .foote {
-                border: 7px solid darkgreen;
             }
         }
     }

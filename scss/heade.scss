@@ -2,20 +2,17 @@
     .blo { 
         .blo_ro {
             .heade {
-                border: 7px solid darkgreen;
                 .heade_ro {
                     display: flex;
                     flex-direction: column;
-                    border: 7px solid darkgreen;
+                    background-color: #EAAC7F;
                     .heade_ro_blo1 {
-                        border: 7px solid darkgreen;
                         .heade_ro_blo1_ro {
                             display: flex;
                             flex-direction: row;
                             column-gap: 11px;
                             flex-wrap: wrap;
                             justify-content: flex-end;
-                            border: 7px solid darkgreen;
 
                             @include doug_scree_2 {
                                 display: flex;
@@ -23,7 +20,6 @@
                                 flex-direction: row;
                                 column-gap: 11px;
                                 justify-content: flex-end;
-                                border: 7px solid darkgreen;
                             }
 
                             @include doug_scree_3 {
@@ -32,7 +28,6 @@
                                 column-gap: 11px;
                                 flex-wrap: wrap;
                                 justify-content: flex-end;
-                                border: 7px solid darkgreen;
                             }
 
                             @include doug_scree_4 {
@@ -41,7 +36,6 @@
                                 column-gap: 11px;
                                 flex-wrap: wrap;
                                 justify-content: flex-end;
-                                border: 7px solid darkgreen;
                             }
                             .heade_ro_blo1_ro_tx1 {
                                 font-style: normal;
@@ -50,7 +44,6 @@
                                 margin-right: auto;
                                 opacity: 100%;
                                 font-family: "Libre Caslon Text", sans-serif;
-                                border: 7px solid darkgreen;
 
                                 @include doug_scree_2 {
                                     font-style: normal;
@@ -59,7 +52,6 @@
                                     margin-right: auto;
                                     opacity: 100%;
                                     font-family: "Libre Caslon Text", sans-serif;
-                                    border: 7px solid darkgreen;
                                 }
 
                                 @include doug_scree_3 {
@@ -69,7 +61,6 @@
                                     margin-right: auto;
                                     opacity: 100%;
                                     font-family: "Libre Caslon Text", sans-serif;
-                                    border: 7px solid darkgreen;
                                 }
 
                                 @include doug_scree_4 {
@@ -79,7 +70,6 @@
                                     margin-right: auto;
                                     opacity: 100%;
                                     font-family: "Libre Caslon Text", sans-serif;
-                                    border: 7px solid darkgreen;
                                 }
                             }
 
@@ -91,7 +81,6 @@
                                 font-size: 17px;
                                 opacity: 100%;
                                 font-family: "Source Sans Pro", sans-serif;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -127,7 +116,6 @@
                                     cursor: pointer;
                                     font-size: 17px;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -164,7 +152,6 @@
                                     font-size: 17px;
                                     opacity: 0%;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -201,7 +188,6 @@
                                     opacity: 0%;
                                     font-size: 17px;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -238,7 +224,6 @@
                                 cursor: pointer;
                                 font-size: 17px;
                                 font-family: "Source Sans Pro", sans-serif;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -273,7 +258,6 @@
                                     cursor: pointer;
                                     font-size: 17px;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -310,7 +294,6 @@
                                     font-size: 17px;
                                     opacity: 0%;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -347,7 +330,6 @@
                                     opacity: 0%;
                                     font-size: 17px;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -384,7 +366,6 @@
                                 cursor: pointer;
                                 font-size: 17px;
                                 font-family: "Source Sans Pro", sans-serif;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -419,7 +400,6 @@
                                     cursor: pointer;
                                     font-size: 17px;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -456,7 +436,6 @@
                                     font-size: 17px;
                                     opacity: 0%;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -493,7 +472,6 @@
                                     opacity: 0%;
                                     font-size: 17px;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -530,7 +508,6 @@
                                 cursor: pointer;
                                 font-size: 17px;
                                 font-family: "Source Sans Pro", sans-serif;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -565,7 +542,6 @@
                                     cursor: pointer;
                                     font-size: 17px;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -602,7 +578,6 @@
                                     font-size: 17px;
                                     opacity: 0%;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
@@ -639,7 +614,6 @@
                                     opacity: 0%;
                                     font-size: 17px;
                                     font-family: "Source Sans Pro", sans-serif;
-                                    border: 7px solid darkgreen;
                                     transition: 0.5s;
                                     &::after {
                                         content: " ";
