@@ -2,40 +2,34 @@
     .foote_ro {
         display: flex;
         flex-direction: row;
-        border: 7px solid darkgreen;
+        background-color: #EAAC7F;
         .foote_ro_desc1 {
-            border: 7px solid darkgreen;
             .foote_ro_desc1_ro {
                 display: flex;
                 flex-direction: row;
-                border: 7px solid darkgreen;
                 .foote_ro_desc1_ro_tx1 {
                     font-style: normal;
                     font-size: 17px;
                     color: black;
                     font-family: "Libre Caslon Text", sans-serif;
-                    border: 7px solid darkgreen;
                 }
             }
         }
 
         .foote_ro_desc2 {
             flex-basis: 1750px;
-            border: 7px solid darkgreen;
             .foote_ro_desc2_ro {
                 .foote_ro_desc2_ro_blo1 {
                     display: flex;
                     justify-content: space-between;
                     flex-wrap: wrap;
                     flex-direction: row;
-                    border: 7px solid darkgreen;
 
                     @include doug_scree_2 {
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
                         justify-content: space-between;
-                        border: 7px solid darkgreen;
                     }
 
                     @include doug_scree_3 {
@@ -45,7 +39,6 @@
                         flex-wrap: wrap;
                         justify-content: space-between;
                         flex-direction: column;
-                        border: 7px solid darkgreen;
                     }
 
                     @include doug_scree_4 {
@@ -55,30 +48,24 @@
                         justify-content: space-between;
                         flex-wrap: wrap;
                         flex-direction: column;
-                        border: 7px solid darkgreen;
                     }
                     .foote_ro_desc_2_ro_blo1_ro {
-                        border: 7px solid darkgreen;
                         display: flex;
                         flex-direction: column;
-                        border: 7px solid darkgreen;
     
                         @include doug_scree_2 {
                             display: flex;
                             flex-direction: column;
-                            border: 7px solid darkgreen;
                         }
     
                         @include doug_scree_3 {
                             display: flex;
                             flex-direction: column;
-                            border: 7px solid darkgreen;
                         }
     
                         @include doug_scree_4 {
                             display: flex;
                             flex-direction: column;
-                            border: 7px solid darkgreen;
                         }
                         .foote_ro_desc_2_ro_blo1_ro_tx1 {
                             position: relative;                    
@@ -87,7 +74,6 @@
                             color: black;
                             font-family: "Source Sans Pro";
                             cursor: pointer;
-                            border: 7px solid darkgreen;
                             transition: 0.5s;
                         
                             &::after {
@@ -122,7 +108,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                             
                                 &::after {
@@ -158,7 +143,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                             
                                 &::after {
@@ -194,7 +178,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
@@ -231,7 +214,6 @@
                             color: black;
                             font-family: "Source Sans Pro";
                             cursor: pointer;
-                            border: 7px solid darkgreen;
                             transition: 0.5s;
                             
                             &::after {
@@ -266,7 +248,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
@@ -302,7 +283,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
@@ -338,7 +318,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
@@ -375,7 +354,6 @@
                             color: black;
                             font-family: "Source Sans Pro";
                             cursor: pointer;
-                            border: 7px solid darkgreen;
                             transition: 0.5s;
                             
                             &::after {
@@ -410,7 +388,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
@@ -446,7 +423,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
@@ -482,7 +458,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
@@ -519,7 +494,6 @@
                             color: black;
                             font-family: "Source Sans Pro";
                             cursor: pointer;
-                            border: 7px solid darkgreen;
                             transition: 0.5s;
                             
                             &::after {
@@ -554,7 +528,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
@@ -590,7 +563,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
@@ -626,7 +598,6 @@
                                 color: black;
                                 font-family: "Source Sans Pro";
                                 cursor: pointer;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 
                                 &::after {
