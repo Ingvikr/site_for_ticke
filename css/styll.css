@@ -2697,10 +2697,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: 7px solid darkgreen;
-}
-.foote .foote_ro .foote_ro_desc1 {
-  border: 7px solid darkgreen;
+  background-color: #EAAC7F;
 }
 .foote .foote_ro .foote_ro_desc1 .foote_ro_desc1_ro {
   display: -webkit-box;
@@ -2710,19 +2707,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_desc1 .foote_ro_desc1_ro .foote_ro_desc1_ro_tx1 {
   font-style: normal;
   font-size: 17px;
   color: black;
   font-family: "Libre Caslon Text", sans-serif;
-  border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_desc2 {
   -ms-flex-preferred-size: 1750px;
       flex-basis: 1750px;
-  border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_desc2 .foote_ro_desc2_ro .foote_ro_desc2_ro_blo1 {
   display: -webkit-box;
@@ -2737,7 +2731,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .foote .foote_ro .foote_ro_desc2 .foote_ro_desc2_ro .foote_ro_desc2_ro_blo1 {
@@ -2753,7 +2746,6 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -2774,7 +2766,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -2795,11 +2786,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 7px solid darkgreen;
   }
 }
 .foote .foote_ro .foote_ro_desc2 .foote_ro_desc2_ro .foote_ro_desc2_ro_blo1 .foote_ro_desc_2_ro_blo1_ro {
-  border: 7px solid darkgreen;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2807,7 +2796,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .foote .foote_ro .foote_ro_desc2 .foote_ro_desc2_ro .foote_ro_desc2_ro_blo1 .foote_ro_desc_2_ro_blo1_ro {
@@ -2818,7 +2806,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -2830,7 +2817,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -2842,7 +2828,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 7px solid darkgreen;
   }
 }
 .foote .foote_ro .foote_ro_desc2 .foote_ro_desc2_ro .foote_ro_desc2_ro_blo1 .foote_ro_desc_2_ro_blo1_ro .foote_ro_desc_2_ro_blo1_ro_tx1 {
@@ -2852,7 +2837,6 @@
   color: black;
   font-family: "Source Sans Pro";
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -2888,7 +2872,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -2925,7 +2908,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -2962,7 +2944,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -2998,7 +2979,6 @@
   color: black;
   font-family: "Source Sans Pro";
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3034,7 +3014,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -3071,7 +3050,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -3108,7 +3086,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -3144,7 +3121,6 @@
   color: black;
   font-family: "Source Sans Pro";
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3180,7 +3156,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -3217,7 +3192,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -3254,7 +3228,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -3290,7 +3263,6 @@
   color: black;
   font-family: "Source Sans Pro";
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3326,7 +3298,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -3363,7 +3334,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -3400,7 +3370,6 @@
     color: black;
     font-family: "Source Sans Pro";
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
